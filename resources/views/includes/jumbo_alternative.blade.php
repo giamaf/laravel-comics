@@ -1,3 +1,3 @@
 <section class="jumbotron-alternative">
-    <h1>👉🏼 Qui sarà inserito il contenuto 👈🏼</h1>
+    <h1>👉🏼 Questo è un jumbo alternativo 👈🏼</h1>
 </section>
