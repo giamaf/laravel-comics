@@ -17,7 +17,7 @@
     @include('includes.header')
 
     {{-- todo Jumbo --}}
-    @include('includes.jumbo')
+    @yield('jumbo')
 
     {{-- # Main --}}
     <main>
