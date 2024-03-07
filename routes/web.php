@@ -17,8 +17,11 @@ Route::get('/characters', function () {
     return view('characters');
 })->name('characters');
 
+
 Route::get('/comics', function () {
-    return view('comics');
+    //! Recupero il file data_card per renderizzare le cards
+    $items = config('card_data');
+    return view('comics', compact('items'));
 })->name('comics');
 
 Route::get('/movies', function () {

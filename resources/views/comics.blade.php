@@ -2,16 +2,22 @@
 
 @section('title', 'Comics')
 
+@section('jumbo')
+    @include('includes.jumbo')
+@endsection
+
 @section('main')
     <section>
         <div class="container">
             <div class="row">
-                <div class="col">
-                    <div class="film-card">
-                        <img src="" alt="">
-                        <figcaption></figcaption>
+                @foreach ($items as $item)
+                    <div class="col">
+                        <div class="film-card">
+                            <img src="{{ $item['thumb'] }}" alt="">
+                            <figcaption>{{ $item['title'] }}</figcaption>
+                        </div>
                     </div>
-                </div>
+                @endforeach
             </div>
         </div>
         <button>
