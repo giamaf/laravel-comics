@@ -1,5 +1,5 @@
 .footer-top {
-    // background-image: url(../assets/img/footer-bg.jpg);
+    background-image: url(../img/footer-bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
@@ -24,6 +24,7 @@
 
     ul {
         text-transform: none;
+        text-transform: capitalize;
         font-size: 0.6rem;
 
         li {

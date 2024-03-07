@@ -11,7 +11,19 @@
             </a>
             <ul class="flex">
                 <li><a href="#">
-                        <img src="" alt=""></a>
+                        <img src="{{ Vite::asset('resources/img/footer-facebook.png') }}" alt="facebook.png"></a>
+                </li>
+                <li><a href="#">
+                        <img src="{{ Vite::asset('resources/img/footer-twitter.png') }}" alt="twitter.png"></a>
+                </li>
+                <li><a href="#">
+                        <img src="{{ Vite::asset('resources/img/footer-youtube.png') }}" alt="youtube.png"></a>
+                </li>
+                <li><a href="#">
+                        <img src="{{ Vite::asset('resources/img/footer-pinterest.png') }}" alt="pinterest.png"></a>
+                </li>
+                <li><a href="#">
+                        <img src="{{ Vite::asset('resources/img/footer-periscope.png') }}" alt="periscope.png"></a>
                 </li>
             </ul>
         </div>

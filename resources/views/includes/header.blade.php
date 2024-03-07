@@ -1,5 +1,5 @@
 <header class="flex container">
-    <a href="#"><img src="" alt=""></a>
+    <a href="{{ route('comics') }}"><img src="{{ Vite::asset('resources/img/dc-logo.png') }}" alt="Logo DC Comics"></a>
     <ul class="flex">
         <li>
             <a href="{{ route('characters') }}">characters</a>
@@ -14,7 +14,7 @@
             <a href="{{ route('tv') }}">tv</a>
         </li>
         <li>
-            <a href="{{ route('games') | '#' }}">games</a>
+            <a href="{{ route('games') }}">games</a>
         </li>
         <li>
             <a href="{{ route('collectibles') }}">collectibles</a>
