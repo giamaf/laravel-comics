@@ -7,6 +7,9 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>{{ env('APP_NAME', 'DC Comics') }} | @yield('title')</title>
 
+    {{-- CDN --}}
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
     <!-- Styles -->
     @vite('resources/js/app.js')
 
@@ -14,10 +17,12 @@
 
 <body>
     {{-- Header --}}
-    @include('includes.header')
+    <header>
+        @include('includes.header')
 
-    {{-- todo Jumbo --}}
-    @yield('jumbo')
+        {{-- todo Jumbo --}}
+        @yield('jumbo')
+    </header>
 
     {{-- # Main --}}
     <main>

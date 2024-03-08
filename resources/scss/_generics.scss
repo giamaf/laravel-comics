@@ -1,6 +1,6 @@
 /* Generics */
 body {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'GretaSansStd', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
     text-transform: uppercase;
 }
 
@@ -12,6 +12,8 @@ img {
 ul {
     list-style-type: none;
     gap: 20px;
+    margin-bottom: 0;
+    padding: 0;
 }
 
 a {
