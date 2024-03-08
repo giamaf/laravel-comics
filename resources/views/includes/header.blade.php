@@ -12,7 +12,7 @@
 </div>
 <div class="header-bottom flex container">
     <div class="left">
-        <a href="{{ route('comics') }}"><img src="{{ Vite::asset('resources/img/dc-logo.png') }}" alt="Logo DC Comics"></a>
+        <a href="{{ route('home') }}"><img src="{{ Vite::asset('resources/img/dc-logo.png') }}" alt="Logo DC Comics"></a>
     </div>
     <div class="center">
         <ul class="flex">
