@@ -11,6 +11,8 @@
 {{-- Main --}}
 @section('main')
 
-    <p>Questa è la sezione Fans</p>
+    <section id="nothing">
+        <p>Questa è la sezione Fans</p>
+    </section>
 
 @endsection

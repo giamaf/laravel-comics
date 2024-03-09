@@ -12,6 +12,8 @@
 {{-- Main --}}
 @section('main')
 
-    <p>Questa è la sezione TV</p>
+    <section id="nothing">
+        <p>Questa è la sezione tv</p>
+    </section>
 
 @endsection

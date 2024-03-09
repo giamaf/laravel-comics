@@ -8,6 +8,8 @@
 
 @section('main')
 
-    <p>Questa è la sezione Movies</p>
+    <section id="nothing">
+        <p>Questa è la sezione Movies</p>
+    </section>
 
 @endsection

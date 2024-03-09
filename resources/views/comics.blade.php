@@ -11,7 +11,5 @@
 
 {{-- Main --}}
 @section('main')
-
-    <p>Questa è la sezione Comics</p>
-
+    @include('includes.main')
 @endsection

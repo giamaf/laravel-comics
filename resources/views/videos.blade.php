@@ -12,6 +12,8 @@
 {{-- Main --}}
 @section('main')
 
-    <p>Questa è la sezione Videos</p>
+    <section id="nothing">
+        <p>Questa è la sezione Videos</p>
+    </section>
 
 @endsection

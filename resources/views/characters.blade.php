@@ -8,6 +8,8 @@
 
 @section('main')
 
-    <p>👉🏼 Characters 👈🏼</p>
+    <section id="nothing">
+        <p>Questa è la sezione Characters</p>
+    </section>
 
 @endsection
