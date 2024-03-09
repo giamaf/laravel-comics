@@ -13,16 +13,32 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+Route::get('/home', function () {
+    //! Recupero il file data_card per renderizzare le cards
+    $items = config('card_data');
+    return view('home', compact('items'));
+})->name('home');
+
 Route::get('/characters', function () {
     return view('characters');
 })->name('characters');
-
 
 Route::get('/comics', function () {
     //! Recupero il file data_card per renderizzare le cards
     $items = config('card_data');
     return view('comics', compact('items'));
 })->name('comics');
+
+
+//#-------------------- Rotta dinamica --------------------------
+
+  Route::get('/comics/card/{index}', function ($index) {
+       $items = config('card_data');
+
+       return view('cards.card', ['items' => $items[$index]]);
+  })->name('card');
+
+//#--------------------------------------------------------------
 
 Route::get('/movies', function () {
     return view('movies');
